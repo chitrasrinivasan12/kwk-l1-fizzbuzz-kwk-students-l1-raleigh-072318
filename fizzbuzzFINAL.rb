@@ -10,12 +10,12 @@ def fizzbuzz(int)
   elsif int % 5 == 0
    puts "Buzz"
   else
-   puts "Sorry try again"
+   puts nil
 end
 
 end
 
-fizzbuzz(123)
+fizzbuzz(4)
 
   
   # if int % 3,5 == 0
